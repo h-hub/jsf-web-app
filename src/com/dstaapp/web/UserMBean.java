@@ -72,7 +72,7 @@ public class UserMBean implements Serializable{
 	}
 
 	/**     * Returns list of customer objects to be displayed in the data table     * @return     */
-	public List<String> getUsers() {
+	public List<User> getUsers() {
 		return userSessionBean.retrieve();
 	}
 	/**     * Returns the selected Customer object     * @return     */
